@@ -1,0 +1,51 @@
+.list{
+    width: 380px;
+    height: 550px;
+    border: 1px solid #95a0a7;
+    position: relative;
+    margin-top: 80px;
+    margin: 10px;
+    
+}
+.list img{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 14px;
+}
+.list-info{
+    margin-top: 0 14px;
+    padding-left: 10px;
+}
+.list-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.list-name{
+    font-family: 'Lato';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 7px;
+}
+.btn-cart{
+    width: 100%;
+    border: none;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(4, 69, 69);
+}
+.btn-cart p{
+    margin-right: 7px;
+    color: aliceblue;
+    font-style: oblique;
+    font-size: medium;
+}
+.btn-cart:hover{
+    background-color: rgb(16, 118, 118);
+}

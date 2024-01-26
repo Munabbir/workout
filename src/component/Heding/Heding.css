@@ -1,0 +1,17 @@
+.nav-bar{
+    background-color: rgb(4, 69, 69);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 80px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-right: 35px;
+}
+.nav-bar a:hover{
+    color: rgb(16, 118, 118);
+}
